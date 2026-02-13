@@ -1,0 +1,39 @@
+{
+  "name": "create-strayl-landing",
+  "version": "1.0.0",
+  "description": "Scaffold a new Strayl landing page",
+  "type": "module",
+  "bin": {
+    "create-strayl-landing": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "strayl",
+    "create",
+    "landing",
+    "scaffold"
+  ],
+  "author": "Strayl Inc",
+  "license": "MIT"
+}
