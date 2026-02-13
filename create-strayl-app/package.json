@@ -1,6 +1,6 @@
 {
   "name": "create-strayl-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scaffold a new Strayl web application",
   "type": "module",
   "bin": {
